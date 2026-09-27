@@ -1,0 +1,104 @@
+/* Ajuste para mostrar correctamente las imágenes de NewsHub. */
+.news-image {
+  width: 100%;
+  height: 180px;
+  display: block;
+  object-fit: cover;
+  background: #e5e5e5;
+}
+
+.detail-image {
+  width: 100%;
+  min-height: 320px;
+  height: 320px;
+  display: block;
+  object-fit: cover;
+  background: #e5e5e5;
+  border-radius: .25rem;
+}
+
+/* Estilos generales de la primera versión */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f8f9fa;
+}
+
+main { flex: 1; }
+
+.site-header .navbar {
+  background: #1f5fae;
+}
+
+.site-header .navbar-brand,
+.site-header .nav-link {
+  color: #fff;
+}
+
+.hero {
+  background: #e8f1fb;
+  padding: 4rem 1rem;
+}
+
+.hero h1 { color: #1f5fae; font-weight: 700; }
+
+.section-title { color: #1f5fae; font-weight: 700; }
+
+.news-card {
+  height: 100%;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: .5rem;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+
+.news-card .content { padding: 1rem; }
+
+.news-image {
+  width: 100%;
+  height: 190px;
+  display: block;
+  object-fit: cover;
+  background: #e5e5e5;
+}
+
+.detail-image {
+  width: 100%;
+  max-height: 460px;
+  object-fit: cover;
+  display: block;
+  border-radius: .5rem;
+}
+
+.cta {
+  background: #dbe9f8;
+  padding: 2.5rem 1rem;
+  color: #1f5fae;
+}
+
+.site-footer {
+  margin-top: auto;
+  padding: 1.5rem 0;
+  background: #212529;
+  color: #fff;
+}
+
+.back-link { text-decoration: none; }
+
+.contact-info {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: .5rem;
+  border: 1px solid #dee2e6;
+}
+
+.map-placeholder {
+  min-height: 220px;
+  display: grid;
+  place-items: center;
+  background: #e9ecef;
+  border-radius: .25rem;
+  color: #6c757d;
+}
